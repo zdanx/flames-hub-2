@@ -10651,6 +10651,7 @@ g.CreateCreditsLabel = g.CreateCreditsLabel or function()
     corner.CornerRadius = UDim.new(0, 10)
     corner.Parent = label
 
+	label.Visible = false
     g.CreditsLabelGui = creditsGui
     g.CreditsLabelText = label
     if g._PrefixUpdateConnection then g._PrefixUpdateConnection:Disconnect() end
